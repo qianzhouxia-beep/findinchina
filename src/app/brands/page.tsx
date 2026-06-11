@@ -13,6 +13,8 @@ export const metadata = {
   description: 'Browse all verified Chinese brands on FindInChina. Filter by name, category, or export market.',
 }
 
+export const revalidate = 60
+
 export default async function BrandsPage({ searchParams }: PageProps) {
   const supabase = createClient()
   const { letter, market } = searchParams

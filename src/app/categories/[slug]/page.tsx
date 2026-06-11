@@ -61,6 +61,8 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   }
 }
 
+export const revalidate = 60
+
 export default async function CategoryPage({ params }: { params: { slug: string } }) {
   const meta = CATEGORY_META[params.slug]
   if (!meta) notFound()

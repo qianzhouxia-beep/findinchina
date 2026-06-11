@@ -9,6 +9,8 @@ interface BlogPostPageProps {
   params: { slug: string }
 }
 
+export const revalidate = 60
+
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const supabase = createClient()
 

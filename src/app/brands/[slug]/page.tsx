@@ -10,6 +10,8 @@ interface BrandPageProps {
   params: { slug: string }
 }
 
+export const revalidate = 60
+
 export default async function BrandPage({ params }: BrandPageProps) {
   const supabase = createClient()
 

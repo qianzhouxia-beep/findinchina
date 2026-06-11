@@ -53,6 +53,8 @@ function Stars({ rating, size = 'sm' }: { rating: number; size?: 'sm' | 'md' }) 
   )
 }
 
+export const revalidate = 60
+
 export default async function HomePage() {
   const supabase = createClient()
 
