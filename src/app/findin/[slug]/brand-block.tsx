@@ -37,14 +37,14 @@ export function BrandBlock({ block, index }: { block: BrandBlock; index: number 
         </a>
       </div>
 
-      {/* Single main image (one specific product, not a carousel) — 16:10 landscape, less vertical */}
-      <div className="relative aspect-[16/10] w-full bg-slate-50 overflow-hidden rounded mb-6 max-h-[420px]">
+      {/* Single main image (one specific product, not a carousel) — 1:1 white-bg, matches brand-page gallery style */}
+      <div className="relative aspect-square w-full bg-slate-50 overflow-hidden rounded mb-6 max-h-[520px]">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={mainImage}
           alt={block.brand_name}
           onClick={() => setLightbox(true)}
-          className="w-full h-full object-contain cursor-zoom-in"
+          className="w-full h-full object-contain p-3 cursor-zoom-in"
         />
         <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-3 pt-8">
           <div className="text-[10px] font-semibold text-white/80 uppercase tracking-widest">
