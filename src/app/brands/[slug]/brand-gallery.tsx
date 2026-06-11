@@ -25,7 +25,7 @@ export function BrandGallery({
 
   return (
     <>
-      <div className="relative aspect-square w-full bg-gray-100 overflow-hidden rounded">
+      <div className="relative aspect-[16/10] w-full bg-gray-100 overflow-hidden rounded max-h-[520px]">
         <Image
           src={active.src}
           alt={`${active.model_name} — ${brandName}`}
@@ -46,7 +46,7 @@ export function BrandGallery({
         </div>
       </div>
       {/* Thumbnail strip */}
-      <div className="mt-3 grid grid-cols-5 gap-2">
+      <div className="mt-4 grid grid-cols-5 gap-3">
         {items.slice(0, 5).map((it, i) => (
           <button
             key={i}

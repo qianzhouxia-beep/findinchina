@@ -59,34 +59,34 @@ export function SortableTable({ initialRows }: { initialRows: ComparisonRow[] })
       </div>
 
       <div className="border border-slate-200 rounded-lg overflow-x-auto">
-        <table className="w-full text-sm">
+        <table className="w-full text-[15px]">
           <thead className="bg-slate-50 border-b border-slate-200">
             <tr className="text-left">
-              <th className="px-4 py-3 font-semibold">Brand</th>
-              <th className="px-4 py-3 font-semibold">Starting price</th>
-              <th className="px-4 py-3 font-semibold">Top range</th>
-              <th className="px-4 py-3 font-semibold">Power</th>
-              <th className="px-4 py-3 font-semibold">Export</th>
-              <th className="px-4 py-3 font-semibold">Warranty</th>
-              <th className="px-4 py-3 font-semibold">3rd-party</th>
-              <th className="px-4 py-3 font-semibold">Our rating</th>
+              <th className="px-5 py-4 font-semibold">Brand</th>
+              <th className="px-5 py-4 font-semibold">Starting price</th>
+              <th className="px-5 py-4 font-semibold">Top range</th>
+              <th className="px-5 py-4 font-semibold">Power</th>
+              <th className="px-5 py-4 font-semibold">Export</th>
+              <th className="px-5 py-4 font-semibold">Warranty</th>
+              <th className="px-5 py-4 font-semibold">3rd-party</th>
+              <th className="px-5 py-4 font-semibold">Our rating</th>
             </tr>
           </thead>
           <tbody>
             {rows.map((row) => (
               <tr key={row.brand_slug} className="border-b border-slate-100 last:border-0 hover:bg-brand-50">
-                <td className="px-4 py-3 font-semibold">
+                <td className="px-5 py-4 font-semibold">
                   <a href={`/brands/${row.brand_slug}`} className="hover:text-brand-600">
                     {row.brand_name}
                   </a>
                 </td>
-                <td className="px-4 py-3">{row.price_label}</td>
-                <td className="px-4 py-3">{row.range}</td>
-                <td className="px-4 py-3">{row.power}</td>
-                <td className="px-4 py-3">{row.countries}</td>
-                <td className="px-4 py-3">{row.warranty}</td>
-                <td className="px-4 py-3 text-xs text-slate-500">{row.third_party}</td>
-                <td className="px-4 py-3">
+                <td className="px-5 py-4">{row.price_label}</td>
+                <td className="px-5 py-4">{row.range}</td>
+                <td className="px-5 py-4">{row.power}</td>
+                <td className="px-5 py-4">{row.countries}</td>
+                <td className="px-5 py-4">{row.warranty}</td>
+                <td className="px-5 py-4 text-slate-600">{row.third_party}</td>
+                <td className="px-5 py-4">
                   <RatingStars rating={row.rating} />
                 </td>
               </tr>
@@ -112,8 +112,7 @@ function RatingStars({ rating }: { rating: number }) {
         <span key={`e${i}`} className="text-slate-300">★</span>
       ))}{' '}
       <span className="text-xs text-slate-500">
-        {rating.toFixed(1)}
-        {rating <= 1.5 && <span className="text-slate-400"> (B2B)</span>}
+        {rating.toFixed(1)}/5
       </span>
     </span>
   )

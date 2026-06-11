@@ -83,13 +83,13 @@ export function BrandCard({ brand, variant = 'default' }: BrandCardProps) {
       href={`/brands/${brand.slug}`}
       className="group block"
     >
-      <div className="relative aspect-square w-full bg-gray-100 overflow-hidden rounded">
+      <div className="relative aspect-square w-full bg-slate-50 overflow-hidden rounded">
         <Image
           src={imgPath}
           alt={brand.name_en}
           fill
           sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-          className="object-cover transition-transform duration-700 group-hover:scale-105"
+          className="object-contain p-2 transition-transform duration-700 group-hover:scale-105"
         />
         {brand.verified && (
           <span className="absolute top-3 right-3 inline-flex items-center gap-1 text-xs bg-white/95 backdrop-blur-sm text-gray-900 px-2.5 py-1 rounded-full font-medium">
