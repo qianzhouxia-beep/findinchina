@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import { headers } from 'next/headers'
 import { createClient } from '@/lib/supabase/server'
 import { NewsletterForm } from '@/components/newsletter-form'
 import { NavMenu } from '@/components/nav-menu'
@@ -53,10 +54,12 @@ function Stars({ rating, size = 'sm' }: { rating: number; size?: 'sm' | 'md' }) 
   )
 }
 
-export const revalidate = 0
 export const dynamic = 'force-dynamic'
+export const revalidate = 0
+export const fetchCache = 'force-no-store'
 
 export default async function HomePage() {
+  headers() // force dynamic, skip prerender
   const supabase = createClient()
 
   const { data: brands } = await supabase
