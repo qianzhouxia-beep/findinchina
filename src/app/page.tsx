@@ -69,12 +69,23 @@ export default async function HomePage() {
     .order('rating_avg', { ascending: false })
     .limit(6)
 
+  // 统计总品牌数（所有已验证品牌）
+  const { count: brandTotal } = await supabase
+    .from('brands')
+    .select('id', { count: 'exact', head: true })
+    .eq('verified', true)
+
   const { data: reports } = await supabase
     .from('findin_reports')
     .select('slug, title, subtitle, category, brand_count, read_time_min, published_at, cover_image_url, excerpt')
     .eq('status', 'published')
     .order('published_at', { ascending: false })
     .limit(3)
+
+  const { count: reportTotal } = await supabase
+    .from('findin_reports')
+    .select('id', { count: 'exact', head: true })
+    .eq('status', 'published')
 
   const featured = brands?.[0]
   const grid = brands?.slice(1, 6) || []
@@ -114,7 +125,7 @@ export default async function HomePage() {
                 <span className="text-brand-600 italic">bought direct.</span>
               </h1>
               <p className="font-serif text-xl md:text-2xl text-slate-700 mt-8 leading-relaxed max-w-2xl">
-                Six verified Chinese brands, 30 days of vetting, zero marketing fluff. Buy e-bikes and EV chargers straight from the makers.
+                {brandTotal} verified Chinese brands across {reportTotal} in-depth reports — zero marketing fluff. Buy direct from the makers.
               </p>
               <div className="mt-10 flex items-center gap-6 text-sm">
                 <Link
@@ -179,7 +190,7 @@ export default async function HomePage() {
                 Verified roster
               </div>
               <h2 className="font-serif text-4xl md:text-5xl font-bold tracking-tight leading-tight">
-                Six brands, vetted on the same four criteria.
+                {brandTotal} brands, vetted on the same four criteria.
               </h2>
             </div>
             <div className="lg:col-span-5 lg:pt-2">
@@ -354,7 +365,7 @@ export default async function HomePage() {
             One brand, every Monday.
           </h2>
           <p className="font-serif text-lg md:text-xl text-slate-700 mt-5 leading-relaxed">
-            One hand-picked Chinese brand, one dealer, one product, sent every Monday morning. 2,500+ cross-border buyers read it.
+            One hand-picked Chinese brand, one dealer, one product, sent every Monday morning. Join cross-border buyers reading it.
           </p>
           <div className="mt-8 max-w-md mx-auto">
             <NewsletterForm />

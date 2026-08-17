@@ -1,0 +1,958 @@
+0 verbose cli C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node.exe C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.7
+2 info using node@v22.22.2
+3 silly config load:file:C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\elvisq\Projects\findinchina\.npmrc
+5 silly config load:file:C:\Users\elvisq\.npmrc
+6 silly config load:file:C:\Users\elvisq\.workbuddy\binaries\node\workspace\etc\npmrc
+7 verbose title npm install agentkeepalive form-data
+8 verbose argv "install" "agentkeepalive" "form-data" "--cache" "C:/Users/elvisq/Projects/findinchina/.npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\elvisq\Projects\findinchina\.npm-cache\_logs\2026-08-17T13_44_56_899Z-
+10 verbose logfile C:\Users\elvisq\Projects\findinchina\.npm-cache\_logs\2026-08-17T13_44_56_899Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest react@^18.3.1
+15 silly packumentCache full:https://registry.npmmirror.com/react cache-miss
+16 http fetch GET 200 https://registry.npmmirror.com/react 306ms (cache revalidated)
+17 silly packumentCache full:https://registry.npmmirror.com/react set size:6648844 disposed:false
+18 silly fetch manifest agentkeepalive@*
+19 silly packumentCache full:https://registry.npmmirror.com/agentkeepalive cache-miss
+20 http fetch GET 200 https://registry.npmmirror.com/agentkeepalive 97ms (cache revalidated)
+21 silly packumentCache full:https://registry.npmmirror.com/agentkeepalive set size:126687 disposed:false
+22 silly fetch manifest form-data@*
+23 silly packumentCache full:https://registry.npmmirror.com/form-data cache-miss
+24 http fetch GET 200 https://registry.npmmirror.com/form-data 167ms (cache revalidated)
+25 silly packumentCache full:https://registry.npmmirror.com/form-data set size:155594 disposed:false
+26 silly placeDep ROOT agentkeepalive@4.6.0 OK for: findinchina@0.1.0 want: *
+27 silly placeDep ROOT form-data@4.0.6 REPLACE for: findinchina@0.1.0 want: *
+28 silly placeDep ROOT react@18.3.1 OK for: findinchina@0.1.0 want: ^18.3.1
+29 silly fetch manifest @types/cookie@^0.6.0
+30 silly packumentCache full:https://registry.npmmirror.com/@types%2fcookie cache-miss
+31 http fetch GET 200 https://registry.npmmirror.com/@types%2fcookie 160ms (cache revalidated)
+32 silly packumentCache full:https://registry.npmmirror.com/@types%2fcookie set size:36749 disposed:false
+33 silly placeDep ROOT @types/cookie@0.6.0 OK for: @supabase/ssr@0.5.2 want: ^0.6.0
+34 silly fetch manifest @next/env@14.2.13
+35 silly packumentCache full:https://registry.npmmirror.com/@next%2fenv cache-miss
+36 http fetch GET 200 https://registry.npmmirror.com/@next%2fenv 308ms (cache revalidated)
+37 silly packumentCache full:https://registry.npmmirror.com/@next%2fenv set size:7477012 disposed:false
+38 silly fetch manifest @next/swc-darwin-arm64@14.2.13
+39 silly packumentCache full:https://registry.npmmirror.com/@next%2fswc-darwin-arm64 cache-miss
+40 http fetch GET 200 https://registry.npmmirror.com/@next%2fswc-darwin-arm64 272ms (cache revalidated)
+41 silly packumentCache full:https://registry.npmmirror.com/@next%2fswc-darwin-arm64 set size:5740493 disposed:false
+42 silly fetch manifest @next/swc-darwin-x64@14.2.13
+43 silly packumentCache full:https://registry.npmmirror.com/@next%2fswc-darwin-x64 cache-miss
+44 http fetch GET 200 https://registry.npmmirror.com/@next%2fswc-darwin-x64 194ms (cache revalidated)
+45 silly packumentCache full:https://registry.npmmirror.com/@next%2fswc-darwin-x64 set size:5681023 disposed:false
+46 silly fetch manifest @next/swc-linux-arm64-gnu@14.2.13
+47 silly packumentCache full:https://registry.npmmirror.com/@next%2fswc-linux-arm64-gnu cache-miss
+48 http fetch GET 200 https://registry.npmmirror.com/@next%2fswc-linux-arm64-gnu 299ms (cache revalidated)
+49 silly packumentCache full:https://registry.npmmirror.com/@next%2fswc-linux-arm64-gnu set size:5660015 disposed:false
+50 silly fetch manifest @next/swc-linux-arm64-musl@14.2.13
+51 silly packumentCache full:https://registry.npmmirror.com/@next%2fswc-linux-arm64-musl cache-miss
+52 http fetch GET 200 https://registry.npmmirror.com/@next%2fswc-linux-arm64-musl 227ms (cache revalidated)
+53 silly packumentCache full:https://registry.npmmirror.com/@next%2fswc-linux-arm64-musl set size:5677365 disposed:false
+54 silly fetch manifest @next/swc-linux-x64-gnu@14.2.13
+55 silly packumentCache full:https://registry.npmmirror.com/@next%2fswc-linux-x64-gnu cache-miss
+56 http fetch GET 200 https://registry.npmmirror.com/@next%2fswc-linux-x64-gnu 224ms (cache revalidated)
+57 silly packumentCache full:https://registry.npmmirror.com/@next%2fswc-linux-x64-gnu set size:5791107 disposed:false
+58 silly fetch manifest @next/swc-linux-x64-musl@14.2.13
+59 silly packumentCache full:https://registry.npmmirror.com/@next%2fswc-linux-x64-musl cache-miss
+60 http fetch GET 200 https://registry.npmmirror.com/@next%2fswc-linux-x64-musl 199ms (cache revalidated)
+61 silly packumentCache full:https://registry.npmmirror.com/@next%2fswc-linux-x64-musl set size:5615463 disposed:false
+62 silly fetch manifest @next/swc-win32-arm64-msvc@14.2.13
+63 silly packumentCache full:https://registry.npmmirror.com/@next%2fswc-win32-arm64-msvc cache-miss
+64 http fetch GET 200 https://registry.npmmirror.com/@next%2fswc-win32-arm64-msvc 175ms (cache revalidated)
+65 silly packumentCache full:https://registry.npmmirror.com/@next%2fswc-win32-arm64-msvc set size:5642107 disposed:false
+66 silly fetch manifest @next/swc-win32-ia32-msvc@14.2.13
+67 silly packumentCache full:https://registry.npmmirror.com/@next%2fswc-win32-ia32-msvc cache-miss
+68 http fetch GET 200 https://registry.npmmirror.com/@next%2fswc-win32-ia32-msvc 165ms (cache revalidated)
+69 silly packumentCache full:https://registry.npmmirror.com/@next%2fswc-win32-ia32-msvc set size:3332835 disposed:false
+70 silly fetch manifest @next/swc-win32-x64-msvc@14.2.13
+71 silly packumentCache full:https://registry.npmmirror.com/@next%2fswc-win32-x64-msvc cache-miss
+72 http fetch GET 200 https://registry.npmmirror.com/@next%2fswc-win32-x64-msvc 198ms (cache revalidated)
+73 silly packumentCache full:https://registry.npmmirror.com/@next%2fswc-win32-x64-msvc set size:5765063 disposed:false
+74 silly placeDep ROOT @next/env@14.2.13 OK for: next@14.2.13 want: 14.2.13
+75 silly placeDep ROOT @next/swc-darwin-arm64@14.2.13 OK for: next@14.2.13 want: 14.2.13
+76 silly placeDep ROOT @next/swc-darwin-x64@14.2.13 OK for: next@14.2.13 want: 14.2.13
+77 silly placeDep ROOT @next/swc-linux-arm64-gnu@14.2.13 OK for: next@14.2.13 want: 14.2.13
+78 silly placeDep ROOT @next/swc-linux-arm64-musl@14.2.13 OK for: next@14.2.13 want: 14.2.13
+79 silly placeDep ROOT @next/swc-linux-x64-gnu@14.2.13 OK for: next@14.2.13 want: 14.2.13
+80 silly placeDep ROOT @next/swc-linux-x64-musl@14.2.13 OK for: next@14.2.13 want: 14.2.13
+81 silly placeDep ROOT @next/swc-win32-arm64-msvc@14.2.13 OK for: next@14.2.13 want: 14.2.13
+82 silly placeDep ROOT @next/swc-win32-ia32-msvc@14.2.13 OK for: next@14.2.13 want: 14.2.13
+83 silly placeDep ROOT @next/swc-win32-x64-msvc@14.2.13 OK for: next@14.2.13 want: 14.2.13
+84 silly reify mark retired [
+84 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\baseline-browser-mapping',
+84 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\baseline-browser-mapping',
+84 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\baseline-browser-mapping.cmd',
+84 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\baseline-browser-mapping.ps1'
+84 silly reify ]
+85 silly reify mark retired [
+85 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\browserslist',
+85 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\browserslist',
+85 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\browserslist.cmd',
+85 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\browserslist.ps1'
+85 silly reify ]
+86 silly reify mark retired [
+86 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\cssesc',
+86 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\cssesc',
+86 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\cssesc.cmd',
+86 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\cssesc.ps1'
+86 silly reify ]
+87 silly reify mark retired [
+87 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\autoprefixer',
+87 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\autoprefixer',
+87 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\autoprefixer.cmd',
+87 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\autoprefixer.ps1'
+87 silly reify ]
+88 silly reify mark retired [ 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\form-data' ]
+89 silly reify mark retired [
+89 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\jiti',
+89 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\jiti',
+89 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\jiti.cmd',
+89 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\jiti.ps1'
+89 silly reify ]
+90 silly reify mark retired [
+90 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\loose-envify',
+90 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\loose-envify',
+90 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\loose-envify.cmd',
+90 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\loose-envify.ps1'
+90 silly reify ]
+91 silly reify mark retired [
+91 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\openai',
+91 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\openai',
+91 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\openai.cmd',
+91 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\openai.ps1'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\nanoid',
+92 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\nanoid',
+92 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\nanoid.cmd',
+92 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\nanoid.ps1'
+92 silly reify ]
+93 silly reify mark retired [
+93 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\next',
+93 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\next',
+93 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\next.cmd',
+93 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\next.ps1'
+93 silly reify ]
+94 silly reify mark retired [
+94 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\resolve',
+94 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\resolve',
+94 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\resolve.cmd',
+94 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\resolve.ps1'
+94 silly reify ]
+95 silly reify mark retired [
+95 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\sucrase',
+95 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\sucrase',
+95 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\sucrase.cmd',
+95 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\sucrase.ps1',
+95 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\sucrase-node',
+95 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\sucrase-node.cmd',
+95 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\sucrase-node.ps1'
+95 silly reify ]
+96 silly reify mark retired [
+96 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\tailwindcss',
+96 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\tailwind',
+96 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\tailwind.cmd',
+96 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\tailwind.ps1',
+96 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\tailwindcss',
+96 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\tailwindcss.cmd',
+96 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\tailwindcss.ps1'
+96 silly reify ]
+97 silly reify mark retired [
+97 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\typescript',
+97 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\tsc',
+97 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\tsc.cmd',
+97 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\tsc.ps1',
+97 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\tsserver',
+97 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\tsserver.cmd',
+97 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\tsserver.ps1'
+97 silly reify ]
+98 silly reify mark retired [
+98 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\update-browserslist-db',
+98 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\update-browserslist-db',
+98 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\update-browserslist-db.cmd',
+98 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\update-browserslist-db.ps1'
+98 silly reify ]
+99 silly reify moves {
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\baseline-browser-mapping': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.baseline-browser-mapping-em1KPZiq',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\baseline-browser-mapping': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.baseline-browser-mapping-BijRjTj8',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\baseline-browser-mapping.cmd': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.baseline-browser-mapping.cmd-3hEZdESP',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\baseline-browser-mapping.ps1': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.baseline-browser-mapping.ps1-lWFjvfis',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\browserslist': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.browserslist-u8go3ypE',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\browserslist': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.browserslist-l71xZ99a',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\browserslist.cmd': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.browserslist.cmd-IUnCyfUZ',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\browserslist.ps1': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.browserslist.ps1-npTujTyl',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\cssesc': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.cssesc-gyKP76uT',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\cssesc': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.cssesc-7J07DNNO',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\cssesc.cmd': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.cssesc.cmd-H3H1Pg2j',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\cssesc.ps1': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.cssesc.ps1-VMw0bEfn',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\autoprefixer': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.autoprefixer-RO47sIV9',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\autoprefixer': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.autoprefixer-hx3bXMBK',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\autoprefixer.cmd': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.autoprefixer.cmd-PsP7MoyU',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\autoprefixer.ps1': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.autoprefixer.ps1-ewMSSnJX',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\form-data': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.form-data-Pxzx93Ps',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\jiti': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.jiti-ufIvWhOX',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\jiti': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.jiti-TZQNXSBX',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\jiti.cmd': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.jiti.cmd-6OkIyjRh',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\jiti.ps1': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.jiti.ps1-W1cn46M5',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\loose-envify': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.loose-envify-mn1SUOST',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\loose-envify': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.loose-envify-wJxCxrql',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\loose-envify.cmd': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.loose-envify.cmd-mAwTr2bW',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\loose-envify.ps1': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.loose-envify.ps1-KQjH8k45',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\openai': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.openai-FG54gzvr',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\openai': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.openai-LurjEgEJ',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\openai.cmd': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.openai.cmd-3KGDPBz0',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\openai.ps1': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.openai.ps1-9nssJx3d',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\nanoid': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.nanoid-T2MZILGP',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\nanoid': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.nanoid-NukquSWV',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\nanoid.cmd': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.nanoid.cmd-BTpfCsfz',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\nanoid.ps1': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.nanoid.ps1-PLddt99x',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\next': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.next-6szGAtLn',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\next': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.next-uHzfd1e3',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\next.cmd': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.next.cmd-r7GsICq3',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\next.ps1': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.next.ps1-8TOOTFRr',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\resolve': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.resolve-wsdYXY8C',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\resolve': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.resolve-JOR8WchU',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\resolve.cmd': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.resolve.cmd-EAQmLIUR',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\resolve.ps1': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.resolve.ps1-UxUpO3wn',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\sucrase': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.sucrase-IcAU8TQm',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\sucrase': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.sucrase-ciopAWuq',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\sucrase.cmd': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.sucrase.cmd-XipGIlWH',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\sucrase.ps1': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.sucrase.ps1-48ckyq30',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\sucrase-node': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.sucrase-node-ibjLwWcS',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\sucrase-node.cmd': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.sucrase-node.cmd-VsApNe7u',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\sucrase-node.ps1': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.sucrase-node.ps1-NGGF7Ys6',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\tailwindcss': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.tailwindcss-w8A6mNhb',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\tailwind': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.tailwind-xGfOgRpr',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\tailwind.cmd': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.tailwind.cmd-ukmbbSiS',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\tailwind.ps1': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.tailwind.ps1-cKm4HFAq',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\tailwindcss': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.tailwindcss-5LaZXIhw',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\tailwindcss.cmd': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.tailwindcss.cmd-TDZyzIHg',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\tailwindcss.ps1': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.tailwindcss.ps1-nYN5pUHy',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\typescript': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.typescript-v8IcR15K',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\tsc': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.tsc-b73WYRD3',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\tsc.cmd': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.tsc.cmd-3fUavV4J',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\tsc.ps1': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.tsc.ps1-3ZBFdOTu',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\tsserver': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.tsserver-C0u0KlyY',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\tsserver.cmd': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.tsserver.cmd-cOFzEUuJ',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\tsserver.ps1': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.tsserver.ps1-OjM58Ovk',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\update-browserslist-db': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.update-browserslist-db-z8yJiZfa',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\update-browserslist-db': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.update-browserslist-db-ggilRMLH',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\update-browserslist-db.cmd': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.update-browserslist-db.cmd-9UBtU1Ra',
+99 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\update-browserslist-db.ps1': 'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\.bin\\.update-browserslist-db.ps1-pNpbOXUq'
+99 silly reify }
+100 silly audit bulk request {
+100 silly audit   anymatch: [ '3.1.3' ],
+100 silly audit   'abort-controller': [ '3.0.0' ],
+100 silly audit   autoprefixer: [ '10.5.4' ],
+100 silly audit   'any-promise': [ '1.3.0' ],
+100 silly audit   asynckit: [ '0.4.0' ],
+100 silly audit   arg: [ '5.0.2' ],
+100 silly audit   braces: [ '3.0.3' ],
+100 silly audit   'baseline-browser-mapping': [ '2.11.14' ],
+100 silly audit   browserslist: [ '4.28.8' ],
+100 silly audit   'binary-extensions': [ '2.3.0' ],
+100 silly audit   busboy: [ '1.6.0' ],
+100 silly audit   chokidar: [ '3.6.0' ],
+100 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+100 silly audit   cookie: [ '0.7.2' ],
+100 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+100 silly audit   'caniuse-lite': [ '1.0.30001809' ],
+100 silly audit   'camelcase-css': [ '2.0.1' ],
+100 silly audit   commander: [ '4.1.1' ],
+100 silly audit   'client-only': [ '0.0.1' ],
+100 silly audit   csstype: [ '3.2.3' ],
+100 silly audit   cssesc: [ '3.0.0' ],
+100 silly audit   'combined-stream': [ '1.0.8' ],
+100 silly audit   'dunder-proto': [ '1.0.1' ],
+100 silly audit   'delayed-stream': [ '1.0.0' ],
+100 silly audit   'electron-to-chromium': [ '1.5.408' ],
+100 silly audit   didyoumean: [ '1.2.2' ],
+100 silly audit   'es-define-property': [ '1.0.1' ],
+100 silly audit   'es-errors': [ '1.3.0' ],
+100 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+100 silly audit   'es-object-atoms': [ '1.1.2' ],
+100 silly audit   escalade: [ '3.2.0' ],
+100 silly audit   'fast-glob': [ '3.3.3' ],
+100 silly audit   'event-target-shim': [ '5.0.1' ],
+100 silly audit   fastq: [ '1.20.1' ],
+100 silly audit   'fill-range': [ '7.1.1' ],
+100 silly audit   'fraction.js': [ '5.3.4' ],
+100 silly audit   'formdata-node': [ '4.4.1' ],
+100 silly audit   'function-bind': [ '1.1.2' ],
+100 silly audit   'form-data-encoder': [ '1.7.2' ],
+100 silly audit   'get-proto': [ '1.0.1' ],
+100 silly audit   gopd: [ '1.2.0' ],
+100 silly audit   'graceful-fs': [ '4.2.11' ],
+100 silly audit   'has-tostringtag': [ '1.0.2' ],
+100 silly audit   hasown: [ '2.0.4' ],
+100 silly audit   'is-binary-path': [ '2.1.0' ],
+100 silly audit   'get-intrinsic': [ '1.3.0' ],
+100 silly audit   'is-extglob': [ '2.1.1' ],
+100 silly audit   'is-core-module': [ '2.16.2' ],
+100 silly audit   jiti: [ '1.21.7' ],
+100 silly audit   'is-glob': [ '4.0.3' ],
+100 silly audit   'lines-and-columns': [ '1.2.4' ],
+100 silly audit   'is-number': [ '7.0.0' ],
+100 silly audit   lilconfig: [ '3.1.3' ],
+100 silly audit   'js-tokens': [ '4.0.0' ],
+100 silly audit   'loose-envify': [ '1.4.0' ],
+100 silly audit   'iceberg-js': [ '0.8.1' ],
+100 silly audit   'math-intrinsics': [ '1.1.0' ],
+100 silly audit   'has-symbols': [ '1.1.0' ],
+100 silly audit   'mime-types': [ '2.1.35' ],
+100 silly audit   micromatch: [ '4.0.8' ],
+100 silly audit   'mime-db': [ '1.52.0' ],
+100 silly audit   'lucide-react': [ '0.439.0' ],
+100 silly audit   ms: [ '2.1.3' ],
+100 silly audit   nanoid: [ '3.3.18' ],
+100 silly audit   next: [ '14.2.13' ],
+100 silly audit   postcss: [ '8.4.31', '8.5.26' ],
+100 silly audit   'node-domexception': [ '1.0.0' ],
+100 silly audit   'normalize-path': [ '3.0.0' ],
+100 silly audit   'node-fetch': [ '2.7.0' ],
+100 silly audit   'humanize-ms': [ '1.2.1' ],
+100 silly audit   'object-assign': [ '4.1.1' ],
+100 silly audit   mz: [ '2.7.0' ],
+100 silly audit   'object-hash': [ '3.0.0' ],
+100 silly audit   'path-parse': [ '1.0.7' ],
+100 silly audit   picocolors: [ '1.1.1' ],
+100 silly audit   'node-releases': [ '2.0.53' ],
+100 silly audit   openai: [ '4.104.0' ],
+100 silly audit   'undici-types': [ '5.26.5', '6.21.0' ],
+100 silly audit   '@types/node': [ '18.19.130', '20.19.43' ],
+100 silly audit   picomatch: [ '2.3.2', '4.0.5' ],
+100 silly audit   pify: [ '2.3.0' ],
+100 silly audit   'postcss-import': [ '15.1.0' ],
+100 silly audit   merge2: [ '1.4.1' ],
+100 silly audit   'postcss-nested': [ '6.2.0' ],
+100 silly audit   pirates: [ '4.0.7' ],
+100 silly audit   'postcss-js': [ '4.1.0' ],
+100 silly audit   'queue-microtask': [ '1.2.3' ],
+100 silly audit   'postcss-value-parser': [ '4.2.0' ],
+100 silly audit   reusify: [ '1.1.0' ],
+100 silly audit   'read-cache': [ '1.0.0' ],
+100 silly audit   'react-dom': [ '18.3.1' ],
+100 silly audit   resolve: [ '1.22.12' ],
+100 silly audit   scheduler: [ '0.23.2' ],
+100 silly audit   'source-map-js': [ '1.2.1' ],
+100 silly audit   streamsearch: [ '1.1.0' ],
+100 silly audit   'styled-jsx': [ '5.1.1' ],
+100 silly audit   'run-parallel': [ '1.2.0' ],
+100 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+100 silly audit   thenify: [ '3.3.1' ],
+100 silly audit   sucrase: [ '3.35.1' ],
+100 silly audit   tailwindcss: [ '3.4.19' ],
+100 silly audit   'thenify-all': [ '1.6.0' ],
+100 silly audit   'to-regex-range': [ '5.0.1' ],
+100 silly audit   readdirp: [ '3.6.0' ],
+100 silly audit   tinyglobby: [ '0.2.17' ],
+100 silly audit   fdir: [ '6.5.0' ],
+100 silly audit   tr46: [ '0.0.3' ],
+100 silly audit   'postcss-selector-parser': [ '6.1.4' ],
+100 silly audit   tslib: [ '2.8.1' ],
+100 silly audit   'update-browserslist-db': [ '1.3.1' ],
+100 silly audit   typescript: [ '5.9.3' ],
+100 silly audit   'ts-interface-checker': [ '0.1.13' ],
+100 silly audit   'util-deprecate': [ '1.0.2' ],
+100 silly audit   'web-streams-polyfill': [ '4.0.0-beta.3' ],
+100 silly audit   'webidl-conversions': [ '3.0.1' ],
+100 silly audit   'whatwg-url': [ '5.0.0' ],
+100 silly audit   'postcss-load-config': [ '6.0.1' ],
+100 silly audit   dlv: [ '1.1.3' ],
+100 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+100 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+100 silly audit   '@anthropic-ai/sdk': [ '0.27.3' ],
+100 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+100 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+100 silly audit   '@supabase/auth-js': [ '2.112.3' ],
+100 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+100 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+100 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+100 silly audit   '@supabase/functions-js': [ '2.112.3' ],
+100 silly audit   '@supabase/phoenix': [ '0.4.5' ],
+100 silly audit   '@supabase/postgrest-js': [ '2.112.3' ],
+100 silly audit   '@supabase/realtime-js': [ '2.112.3' ],
+100 silly audit   '@supabase/supabase-js': [ '2.112.3' ],
+100 silly audit   '@supabase/storage-js': [ '2.112.3' ],
+100 silly audit   '@swc/counter': [ '0.1.3' ],
+100 silly audit   '@supabase/ssr': [ '0.5.2' ],
+100 silly audit   '@swc/helpers': [ '0.5.5' ],
+100 silly audit   '@types/node-fetch': [ '2.6.13' ],
+100 silly audit   '@types/prop-types': [ '15.7.15' ],
+100 silly audit   '@types/react': [ '18.3.31' ],
+100 silly audit   '@types/react-dom': [ '18.3.7' ],
+100 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+100 silly audit   agentkeepalive: [ '4.6.0' ],
+100 silly audit   'form-data': [ '4.0.6' ],
+100 silly audit   react: [ '18.3.1' ],
+100 silly audit   '@types/cookie': [ '0.6.0' ],
+100 silly audit   '@next/env': [ '14.2.13' ],
+100 silly audit   '@next/swc-darwin-arm64': [ '14.2.13' ],
+100 silly audit   '@next/swc-darwin-x64': [ '14.2.13' ],
+100 silly audit   '@next/swc-linux-arm64-gnu': [ '14.2.13' ],
+100 silly audit   '@next/swc-linux-arm64-musl': [ '14.2.13' ],
+100 silly audit   '@next/swc-linux-x64-gnu': [ '14.2.13' ],
+100 silly audit   '@next/swc-linux-x64-musl': [ '14.2.13' ],
+100 silly audit   '@next/swc-win32-arm64-msvc': [ '14.2.13' ],
+100 silly audit   '@next/swc-win32-ia32-msvc': [ '14.2.13' ],
+100 silly audit   '@next/swc-win32-x64-msvc': [ '14.2.13' ]
+100 silly audit }
+101 verbose reify failed optional dependency C:\Users\elvisq\Projects\findinchina\node_modules\@next\swc-win32-ia32-msvc
+102 silly reify mark deleted [
+102 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\@next\\swc-win32-ia32-msvc'
+102 silly reify ]
+103 verbose reify failed optional dependency C:\Users\elvisq\Projects\findinchina\node_modules\@next\swc-win32-arm64-msvc
+104 silly reify mark deleted [
+104 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\@next\\swc-win32-arm64-msvc'
+104 silly reify ]
+105 verbose reify failed optional dependency C:\Users\elvisq\Projects\findinchina\node_modules\@next\swc-linux-x64-musl
+106 silly reify mark deleted [
+106 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\@next\\swc-linux-x64-musl'
+106 silly reify ]
+107 verbose reify failed optional dependency C:\Users\elvisq\Projects\findinchina\node_modules\@next\swc-linux-x64-gnu
+108 silly reify mark deleted [
+108 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\@next\\swc-linux-x64-gnu'
+108 silly reify ]
+109 verbose reify failed optional dependency C:\Users\elvisq\Projects\findinchina\node_modules\@next\swc-linux-arm64-musl
+110 silly reify mark deleted [
+110 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\@next\\swc-linux-arm64-musl'
+110 silly reify ]
+111 verbose reify failed optional dependency C:\Users\elvisq\Projects\findinchina\node_modules\@next\swc-linux-arm64-gnu
+112 silly reify mark deleted [
+112 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\@next\\swc-linux-arm64-gnu'
+112 silly reify ]
+113 verbose reify failed optional dependency C:\Users\elvisq\Projects\findinchina\node_modules\@next\swc-darwin-x64
+114 silly reify mark deleted [
+114 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\@next\\swc-darwin-x64'
+114 silly reify ]
+115 verbose reify failed optional dependency C:\Users\elvisq\Projects\findinchina\node_modules\@next\swc-darwin-arm64
+116 silly reify mark deleted [
+116 silly reify   'C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\@next\\swc-darwin-arm64'
+116 silly reify ]
+117 http cache @next/env@https://registry.npmmirror.com/@next/env/-/env-14.2.13.tgz 0ms (cache hit)
+118 http cache react@https://registry.npmmirror.com/react/-/react-18.3.1.tgz 0ms (cache hit)
+119 silly packumentCache corgi:https://registry.npmmirror.com/typescript cache-miss
+120 http cache @types/cookie@https://registry.npmmirror.com/@types/cookie/-/cookie-0.6.0.tgz 0ms (cache hit)
+121 http cache @next/swc-win32-x64-msvc@https://registry.npmmirror.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-14.2.13.tgz 0ms (cache hit)
+122 silly packumentCache corgi:https://registry.npmmirror.com/tailwindcss cache-miss
+123 http cache agentkeepalive@https://registry.npmmirror.com/agentkeepalive/-/agentkeepalive-4.6.0.tgz 0ms (cache hit)
+124 silly packumentCache corgi:https://registry.npmmirror.com/update-browserslist-db cache-miss
+125 silly packumentCache corgi:https://registry.npmmirror.com/sucrase cache-miss
+126 silly packumentCache corgi:https://registry.npmmirror.com/next cache-miss
+127 silly packumentCache corgi:https://registry.npmmirror.com/resolve cache-miss
+128 silly packumentCache corgi:https://registry.npmmirror.com/nanoid cache-miss
+129 silly packumentCache corgi:https://registry.npmmirror.com/openai cache-miss
+130 silly packumentCache corgi:https://registry.npmmirror.com/loose-envify cache-miss
+131 silly packumentCache corgi:https://registry.npmmirror.com/jiti cache-miss
+132 http cache form-data@https://registry.npmmirror.com/form-data/-/form-data-4.0.6.tgz 0ms (cache hit)
+133 silly packumentCache corgi:https://registry.npmmirror.com/autoprefixer cache-miss
+134 silly packumentCache corgi:https://registry.npmmirror.com/cssesc cache-miss
+135 silly packumentCache corgi:https://registry.npmmirror.com/browserslist cache-miss
+136 silly packumentCache corgi:https://registry.npmmirror.com/baseline-browser-mapping cache-miss
+137 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk 99ms
+138 silly audit bulk request failed [object Object]
+139 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/audits/quick 904ms
+140 verbose audit error HttpErrorGeneral: 404 Not Found - POST https://registry.npmmirror.com/-/npm/v1/security/audits/quick - [NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet
+140 verbose audit error     at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:103:15
+140 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+140 verbose audit error     at async [getReport] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:336:21)
+140 verbose audit error     at async AuditReport.run (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:106:19) {
+140 verbose audit error   headers: [Object: null prototype] {
+140 verbose audit error     server: [ 'Tengine' ],
+140 verbose audit error     date: [ 'Mon, 17 Aug 2026 13:45:08 GMT' ],
+140 verbose audit error     'content-type': [ 'application/json' ],
+140 verbose audit error     'transfer-encoding': [ 'chunked' ],
+140 verbose audit error     connection: [ 'keep-alive' ],
+140 verbose audit error     'strict-transport-security': [ 'max-age=5184000' ],
+140 verbose audit error     via: [ 'cache10.cn1140[,404666]' ],
+140 verbose audit error     'timing-allow-origin': [ '*' ],
+140 verbose audit error     eagleid: [ 'caa8a29e17869743082298034e' ],
+140 verbose audit error     'x-fetch-attempts': [ '1' ]
+140 verbose audit error   },
+140 verbose audit error   statusCode: 404,
+140 verbose audit error   code: 'E404',
+140 verbose audit error   method: 'POST',
+140 verbose audit error   uri: 'https://registry.npmmirror.com/-/npm/v1/security/audits/quick',
+140 verbose audit error   body: {
+140 verbose audit error     error: '[NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet'
+140 verbose audit error   },
+140 verbose audit error   pkgid: undefined
+140 verbose audit error }
+141 silly audit error [object Object]
+142 silly audit report null
+143 http fetch GET 200 https://registry.npmmirror.com/update-browserslist-db 277230ms (cache miss)
+144 http fetch GET 200 https://registry.npmmirror.com/loose-envify 277242ms (cache miss)
+145 http fetch GET 200 https://registry.npmmirror.com/cssesc 282244ms (cache miss)
+146 http fetch GET 200 https://registry.npmmirror.com/resolve 282265ms (cache miss)
+147 http fetch GET 200 https://registry.npmmirror.com/nanoid 287276ms (cache miss)
+148 http fetch GET 200 https://registry.npmmirror.com/sucrase 289311ms (cache miss)
+149 http fetch GET 200 https://registry.npmmirror.com/jiti 294312ms (cache miss)
+150 http fetch GET 200 https://registry.npmmirror.com/autoprefixer 296348ms (cache miss)
+151 http fetch GET 200 https://registry.npmmirror.com/openai 299332ms (cache miss)
+152 http fetch GET 200 https://registry.npmmirror.com/tailwindcss 303505ms (cache miss)
+153 http fetch GET 200 https://registry.npmmirror.com/typescript 306422ms (cache miss)
+154 http fetch GET 200 https://registry.npmmirror.com/next 310641ms (cache miss)
+155 http fetch GET 200 https://registry.npmmirror.com/browserslist 359528ms (cache miss)
+156 http fetch GET 200 https://registry.npmmirror.com/baseline-browser-mapping 359666ms (cache miss)
+157 warn cleanup Failed to remove some directories [
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\autoprefixer',
+157 warn cleanup     Error: [safe-delete] 操作失败: ERROR \\?\C:\Users\elvisq\Projects\findinchina\node_modules\autoprefixer: Error during a `trash` operation: Unknown { description: "Some operations were aborted" }
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\browserslist',
+157 warn cleanup     Error: [safe-delete] 操作失败: ERROR \\?\C:\Users\elvisq\Projects\findinchina\node_modules\browserslist: Error during a `trash` operation: Unknown { description: "Some operations were aborted" }
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\cssesc',
+157 warn cleanup     Error: [safe-delete] 操作失败: ERROR \\?\C:\Users\elvisq\Projects\findinchina\node_modules\cssesc: Error during a `trash` operation: Unknown { description: "Some operations were aborted" }
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\form-data',
+157 warn cleanup     Error: [safe-delete] 操作失败: ERROR \\?\C:\Users\elvisq\Projects\findinchina\node_modules\form-data: Error during a `trash` operation: Unknown { description: "Some operations were aborted" }
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\openai',
+157 warn cleanup     Error: [safe-delete] 操作失败: ERROR \\?\C:\Users\elvisq\Projects\findinchina\node_modules\openai: Error during a `trash` operation: Unknown { description: "Some operations were aborted" }
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\jiti',
+157 warn cleanup     Error: [safe-delete] 操作失败: ERROR \\?\C:\Users\elvisq\Projects\findinchina\node_modules\jiti: Error during a `trash` operation: Unknown { description: "Some operations were aborted" }
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\nanoid',
+157 warn cleanup     Error: [safe-delete] 操作失败: ERROR \\?\C:\Users\elvisq\Projects\findinchina\node_modules\nanoid: Error during a `trash` operation: Unknown { description: "Some operations were aborted" }
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\loose-envify',
+157 warn cleanup     Error: [safe-delete] 操作失败: ERROR \\?\C:\Users\elvisq\Projects\findinchina\node_modules\loose-envify: Error during a `trash` operation: Unknown { description: "Some operations were aborted" }
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\sucrase',
+157 warn cleanup     Error: [safe-delete] 操作失败: ERROR \\?\C:\Users\elvisq\Projects\findinchina\node_modules\sucrase: Error during a `trash` operation: Unknown { description: "Some operations were aborted" }
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\resolve',
+157 warn cleanup     Error: [safe-delete] 操作失败: ERROR \\?\C:\Users\elvisq\Projects\findinchina\node_modules\resolve: Error during a `trash` operation: Unknown { description: "Some operations were aborted" }
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\tailwindcss',
+157 warn cleanup     Error: [safe-delete] 操作失败: ERROR \\?\C:\Users\elvisq\Projects\findinchina\node_modules\tailwindcss: Error during a `trash` operation: Unknown { description: "Some operations were aborted" }
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\typescript',
+157 warn cleanup     Error: [safe-delete] 操作失败: ERROR \\?\C:\Users\elvisq\Projects\findinchina\node_modules\typescript: Error during a `trash` operation: Unknown { description: "Some operations were aborted" }
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\next',
+157 warn cleanup     Error: [safe-delete] 操作失败: ERROR \\?\C:\Users\elvisq\Projects\findinchina\node_modules\next: Error during a `trash` operation: Unknown { description: "Some operations were aborted" }
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\update-browserslist-db',
+157 warn cleanup     Error: [safe-delete] 操作失败: ERROR \\?\C:\Users\elvisq\Projects\findinchina\node_modules\update-browserslist-db: Error during a `trash` operation: Unknown { description: "Some operations were aborted" }
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\agentkeepalive',
+157 warn cleanup     Error: [safe-delete] 操作失败: ERROR \\?\C:\Users\elvisq\Projects\findinchina\node_modules\agentkeepalive: Error during a `trash` operation: Unknown { description: "Some operations were aborted" }
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\react',
+157 warn cleanup     Error: [safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {"count":51,"threshold":50,"scope":"turn","targets":["\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\react"],"targetCount":1}
+157 warn cleanup         at checkBulkDeleteGuard (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:222:19)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:546:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup         at async Install.exec (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\lib\commands\install.js:150:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\baseline-browser-mapping',
+157 warn cleanup     Error: [safe-delete] 操作失败: ERROR \\?\C:\Users\elvisq\Projects\findinchina\node_modules\baseline-browser-mapping: Error during a `trash` operation: Unknown { description: "Some operations were aborted" }
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\@next',
+157 warn cleanup     Error: [safe-delete] 操作失败: spawnSync C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\vendor\genie-trash\win32-x64.exe ETIMEDOUT
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\@next\\swc-linux-arm64-musl',
+157 warn cleanup     Error: [safe-delete] 操作失败: ERROR \\?\C:\Users\elvisq\Projects\findinchina\node_modules\@next\swc-linux-arm64-musl: Error during a `trash` operation: Unknown { description: "Some operations were aborted" }
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\@next\\swc-darwin-arm64',
+157 warn cleanup     Error: [safe-delete] 操作失败: ERROR \\?\C:\Users\elvisq\Projects\findinchina\node_modules\@next\swc-darwin-arm64: Error during a `trash` operation: Unknown { description: "Some operations were aborted" }
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\@next\\swc-linux-arm64-gnu',
+157 warn cleanup     Error: [safe-delete] 操作失败: ERROR \\?\C:\Users\elvisq\Projects\findinchina\node_modules\@next\swc-linux-arm64-gnu: Error during a `trash` operation: Unknown { description: "Some operations were aborted" }
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\@next\\swc-linux-x64-musl',
+157 warn cleanup     Error: [safe-delete] 操作失败: ERROR \\?\C:\Users\elvisq\Projects\findinchina\node_modules\@next\swc-linux-x64-musl: Error during a `trash` operation: Unknown { description: "Some operations were aborted" }
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\@next\\swc-linux-x64-gnu',
+157 warn cleanup     Error: [safe-delete] 操作失败: ERROR \\?\C:\Users\elvisq\Projects\findinchina\node_modules\@next\swc-linux-x64-gnu: Error during a `trash` operation: Unknown { description: "Some operations were aborted" }
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\@next\\swc-win32-arm64-msvc',
+157 warn cleanup     Error: [safe-delete] 操作失败: ERROR \\?\C:\Users\elvisq\Projects\findinchina\node_modules\@next\swc-win32-arm64-msvc: Error during a `trash` operation: Unknown { description: "Some operations were aborted" }
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\@next\\swc-win32-x64-msvc',
+157 warn cleanup     Error: [safe-delete] 操作失败: spawnSync C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\vendor\genie-trash\win32-x64.exe ETIMEDOUT
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\@next\\swc-win32-ia32-msvc',
+157 warn cleanup     Error: [safe-delete] 操作失败: ERROR \\?\C:\Users\elvisq\Projects\findinchina\node_modules\@next\swc-win32-ia32-msvc: Error during a `trash` operation: Unknown { description: "Some operations were aborted" }
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\@next\\env',
+157 warn cleanup     Error: [safe-delete] 操作失败: spawnSync C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\vendor\genie-trash\win32-x64.exe ETIMEDOUT
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ],
+157 warn cleanup   [
+157 warn cleanup     '\\\\?\\C:\\Users\\elvisq\\Projects\\findinchina\\node_modules\\@types\\cookie',
+157 warn cleanup     Error: [safe-delete] 操作失败: spawnSync C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\vendor\genie-trash\win32-x64.exe ETIMEDOUT
+157 warn cleanup         at trashViaBinary (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:270:15)
+157 warn cleanup         at trashItem (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:283:9)
+157 warn cleanup         at tryTrash (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:547:5)
+157 warn cleanup         at tryRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:722:5)
+157 warn cleanup         at wrappedPromisesRm (C:\Users\elvisq\AppData\Local\Programs\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\genie-safe-delete.cjs:766:15)
+157 warn cleanup         at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:20
+157 warn cleanup         at Array.map (<anonymous>)
+157 warn cleanup         at [rollbackCreateSparseTree] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:657:8)
+157 warn cleanup         at [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:340:31)
+157 warn cleanup         at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+157 warn cleanup   ]
+157 warn cleanup ]
+158 verbose type system
+159 verbose stack FetchError: Invalid response body while trying to fetch https://registry.npmmirror.com/update-browserslist-db: EPERM: operation not permitted, open 'C:\Users\elvisq\Projects\findinchina\.npm-cache\_cacache\index-v5\26\cf\8aaa36c84cebed30b83a77790463d8f854130652b2808ded592f244fad81'
+159 verbose stack     at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\minipass-fetch\lib\body.js:170:15
+159 verbose stack     at async Response.json (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\minipass-fetch\lib\body.js:75:17)
+159 verbose stack     at async RegistryFetcher.packument (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\pacote\lib\registry.js:98:25)
+159 verbose stack     at async RegistryFetcher.manifest (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\pacote\lib\registry.js:128:23)
+159 verbose stack     at async RegistryFetcher.resolve (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\pacote\lib\registry.js:55:5)
+159 verbose stack     at async #extractOrLink (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:806:7)
+159 verbose stack     at async C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:730:7
+159 verbose stack     at async Promise.allSettled (index 13)
+159 verbose stack     at async [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:334:11)
+159 verbose stack     at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5)
+160 error code EPERM
+161 error syscall open
+162 error path C:\Users\elvisq\Projects\findinchina\.npm-cache\_cacache\index-v5\26\cf\8aaa36c84cebed30b83a77790463d8f854130652b2808ded592f244fad81
+163 error errno EPERM
+164 error FetchError: Invalid response body while trying to fetch https://registry.npmmirror.com/update-browserslist-db: EPERM: operation not permitted, open 'C:\Users\elvisq\Projects\findinchina\.npm-cache\_cacache\index-v5\26\cf\8aaa36c84cebed30b83a77790463d8f854130652b2808ded592f244fad81'
+164 error     at C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\minipass-fetch\lib\body.js:170:15
+164 error     at async Response.json (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\minipass-fetch\lib\body.js:75:17)
+164 error     at async RegistryFetcher.packument (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\pacote\lib\registry.js:98:25)
+164 error     at async RegistryFetcher.manifest (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\pacote\lib\registry.js:128:23)
+164 error     at async RegistryFetcher.resolve (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\pacote\lib\registry.js:55:5)
+164 error     at async #extractOrLink (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:806:7)
+164 error     at async C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:730:7
+164 error     at async Promise.allSettled (index 13)
+164 error     at async [reifyPackages] (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:334:11)
+164 error     at async Arborist.reify (C:\Users\elvisq\.workbuddy\binaries\node\versions\22.22.2\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:149:5) {
+164 error   code: 'EPERM',
+164 error   errno: 'EPERM',
+164 error   syscall: 'open',
+164 error   path: 'C:\\Users\\elvisq\\Projects\\findinchina\\.npm-cache\\_cacache\\index-v5\\26\\cf\\8aaa36c84cebed30b83a77790463d8f854130652b2808ded592f244fad81',
+164 error   type: 'system'
+164 error }
+165 error
+165 error The operation was rejected by your operating system.
+165 error It's possible that the file was already in use (by a text editor or antivirus),
+165 error or that you lack permissions to access it.
+165 error
+165 error If you believe this might be a permissions issue, please double-check the
+165 error permissions of the file and its containing directories, or try running
+165 error the command again as root/Administrator.
+166 silly unfinished npm timer reify 1786974300699
+167 silly unfinished npm timer reify:unpack 1786974307363
+168 silly unfinished npm timer reifyNode:node_modules/update-browserslist-db 1786974307364
+169 silly unfinished npm timer reifyNode:node_modules/typescript 1786974307364
+170 silly unfinished npm timer reifyNode:node_modules/tailwindcss 1786974307364
+171 silly unfinished npm timer reifyNode:node_modules/sucrase 1786974307364
+172 silly unfinished npm timer reifyNode:node_modules/resolve 1786974307364
+173 silly unfinished npm timer reifyNode:node_modules/next 1786974307364
+174 silly unfinished npm timer reifyNode:node_modules/nanoid 1786974307364
+175 silly unfinished npm timer reifyNode:node_modules/openai 1786974307364
+176 silly unfinished npm timer reifyNode:node_modules/loose-envify 1786974307364
+177 silly unfinished npm timer reifyNode:node_modules/jiti 1786974307364
+178 silly unfinished npm timer reifyNode:node_modules/autoprefixer 1786974307364
+179 silly unfinished npm timer reifyNode:node_modules/cssesc 1786974307364
+180 silly unfinished npm timer reifyNode:node_modules/browserslist 1786974307364
+181 silly unfinished npm timer reifyNode:node_modules/baseline-browser-mapping 1786974307364
+182 verbose cwd C:\Users\elvisq\Projects\findinchina
+183 verbose os Windows_NT 10.0.19045
+184 verbose node v22.22.2
+185 verbose npm  v10.9.7
+186 verbose exit 1
+187 verbose code 1
+188 error A complete log of this run can be found in: C:\Users\elvisq\Projects\findinchina\.npm-cache\_logs\2026-08-17T13_44_56_899Z-debug-0.log
